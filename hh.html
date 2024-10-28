@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De.velope</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .header1 {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 40px;
+        }
+
+        .header1 a {
+            margin-left: 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .header2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 160px;
+            height: 150px;
+            margin-right: 10px;
+        }
+
+        .logo p {
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 70px;
+            font-size: 24px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 15px;
+            color: #666;
+        }
+
+        .nav span {
+            font-size: 1.25em;
+            color: #666;
+            margin-bottom: 100px;
+        }
+
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 40px 0;
+        }
+
+        .left, .right {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .left {
+            border-right: 1px solid #ddd;
+        }
+
+        .left h1 {
+            font-size: 6em;
+            color: #ff6600;
+        }
+
+        .left h2 {
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+        .left p {
+            font-size: 1em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .left img, .right img {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .right h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .right p {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .right button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+
+        .future-projects {
+            width: 100%;
+            max-width: 1200px;
+            text-align: left;
+            margin: 40px 0;
+            padding: 20px;
+        }
+
+        .future-projects h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .future-projects p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .project-list img {
+            width: 32%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header1">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+        <a href="#">☰</a>
+    </header>
+
+    <header class="header2">
+        <div class="logo">
+            <img src="/image/LOGO.png" alt="De.velope 로고">
+            <p>Showroom Furniture</p>
+        </div>
+        <div class="nav">
+            <span>#2024 10월호</span>
+            <span>#인테리어</span>
+            <span>#라이프스타일</span>
+            <span>|</span>
+            <span>🔍</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="left">
+            <h1>D.V</h1>
+            <h2>DE.VELOPE</h2>
+            <p>시설을 위한 디자인을 합니다</p>
+            <img src="/placeholder.svg?height=300&width=500" alt="프로젝트 이미지">
+        </section>
+
+        <section class="right">
+            <h2>PROJECT</h2>
+            <p>우리의 첫번째 프로젝트는, 본격적으로 디자인의 능력을 살리되 여러 디자인들과의 차별화를 두고자 하는 것으로 시작되었습니다. 가구디자인과 함께 실내디자인과 일 여러 타과들이 연합을 하였습니다. 인원들이 선정한 공간을 시작으로 그들이 디자인에 대해 열마나 적극적이며 열정을 쏟아부었는지를 여러 페이지 레이아웃을 통해 알아가실 수 있습니다.</p>
+            <button>SHOW MORE</button>
+            <img src="/placeholder.svg?height=200&width=500" alt="추가 이미지">
+        </section>
+    </main>
+
+    <section class="future-projects">
+        <h2>2025 DE.VELOPE</h2>
+        <p>De.velope에서 2025년 추후 진행할 프로젝트 리스트</p>
+        <div class="project-list">
+            <img src="/placeholder.svg?height=200&width=300" alt="테이블 이미지 1">
+            <img src="/placeholder.svg?height=200&width=300" alt="테이블 이미지 2">
+            <img src="/placeholder.svg?height=200&width=300" alt="테이블 이미지 3">
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* 전역 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+}
+
+/* 헤더 스타일 */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav span, .nav a {
+    margin-right: 15px;
+    color: #666;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px 0;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 4em;
+    color: #ff6600;
+}
+
+.left h2 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.left p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.left img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.right h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 1em;
+    color: #333;
+}
+
+.right button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.right .extra-images img {
+    width: 48%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* 2025 프로젝트 리스트 스타일 */
+.future-projects {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.future-projects h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.future-projects p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.project-list img {
+    width: 48%;
+    margin: 10px 1%;
+    border-radius: 8px;
+}
